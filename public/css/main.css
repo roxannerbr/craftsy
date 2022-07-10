@@ -1,0 +1,64 @@
+.home main{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.home main .product_cards{
+    background-color: white;
+    padding: 10px;
+}
+
+.home main .product_cards article{
+    margin: 0 0 30px;
+}
+
+.home main .product_cards article:last-child{
+    margin: 0;
+}
+
+.home main .product_cards article img{
+    width: 100%;   
+}
+
+.home main .product_cards article h3{
+    margin: 20px 0;
+}
+
+.home main .product_cards article a{
+    background-color: var(--Alfonzo);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.home aside{
+    margin-top: 20px;
+}
+
+.home aside section h2{
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0;
+    border: 1px solid var(--Poroto);
+}
+
+.home aside section article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    margin: 1px 0;
+    padding: 5px;
+    border: 1px solid var(--Poroto);
+}
+
+.home aside section article p{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.home aside .publicidad img{
+    width: 100%;
+}
