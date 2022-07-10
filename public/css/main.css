@@ -50,7 +50,6 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: white;
-    margin: 1px 0;
     padding: 5px;
     border: 1px solid var(--Poroto);
 }
@@ -110,5 +109,32 @@
 }
 /* desktop */
 @media (min-width:769px) {
-    
+    .home main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .home main .product_cards{
+        width: 74%;
+    }
+    .home main aside{
+        width: 24%;
+        margin-top: 0;
+    }
+    .home aside section h2:after{
+        margin-top: 0;
+    }
+    .home main aside section .grid{
+        display: block;
+    }
+    .home main aside section .grid article{
+        justify-content: flex-start;
+    }
+    .home main aside section .grid article p{
+        width: 50%;
+        text-align: start;
+    }
+    .home aside .publicidad .propaganda{
+        width: 100%;
+    }
 }
