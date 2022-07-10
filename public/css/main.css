@@ -3,6 +3,7 @@
     margin: 0 auto;
 }
 
+/* productos */
 .home main .product_cards{
     background-color: white;
     padding: 10px;
@@ -23,7 +24,7 @@
 .home main .product_cards article h3{
     margin: 20px 0;
 }
-
+/* ver mas */
 .home main .product_cards article a{
     background-color: var(--Alfonzo);
     color: white;
@@ -61,4 +62,53 @@
 
 .home aside .publicidad img{
     width: 100%;
+}
+/* tablet */
+@media (min-width:426px) {
+    .home main .product_cards{
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .home main .product_cards article{
+        margin: 0 0 20px;
+        width: 48%;
+    }
+    .home main .product_cards article:nth-child(5){
+        margin: 0;
+    }
+    .home main .product_cards article p{
+        font-size: small;
+    }
+    .home main aside section .grid{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 10px;
+    }
+    .home aside article{
+        justify-content: center;
+    }
+    .home aside article p{
+        width: 80%;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    .home aside .publicidad h2{
+        width: 100%;
+    }
+    .home aside .publicidad{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .home aside .publicidad .propaganda{
+        width: 48%;
+    }
+    
+}
+/* desktop */
+@media (min-width:769px) {
+    
 }

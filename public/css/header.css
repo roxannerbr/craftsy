@@ -34,6 +34,7 @@ header .burger{
 header nav{
     margin-top: 20px;
     text-align: center;
+    display: none;
 }
 
 header nav ul{
